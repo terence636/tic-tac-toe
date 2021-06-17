@@ -1,0 +1,51 @@
+
+.box {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    border: 1px solid
+}
+
+#row1,#row2,#row3 {
+    display: flex;
+} 
+
+h1 {
+    padding-left: 1.5em;
+}
+
+#resetButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+
+#p1Score {
+    color: blue;
+}
+
+#p2Score {
+    color: red
+}
+
+tick {
+    font-size: 50px;
+}
+
+#gameBoard {
+    position: absolute;
+    
+    /* left: 1200px;
+    top: 0px; */
+
+    /* transform: translate(100%,0%); */
+    transform: rotate(50deg);
+  }
